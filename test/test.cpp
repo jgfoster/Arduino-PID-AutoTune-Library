@@ -6,7 +6,7 @@ bundle exec arduino_ci.rb  --skip-examples-compilation
 #include "Arduino.h"
 #include "ArduinoUnitTests.h"
 #include "PID_AutoTune_v0.h"
-#include "PID_v1.cpp"
+#include "PID_v1.h"
 
 byte ATuneModeRemember = 2;
 double input = 80, output = 50, setpoint = 180;
